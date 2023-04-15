@@ -252,7 +252,7 @@
 		\begin{tabular*}{1\mpwidth}{p{0.72\mpwidth}  r}
 	 		\textcolor{black}{\textbf{#2}} & \colorbox{maincol}{\makebox[0.25\mpwidth]{\textcolor{white}{#1}}} \\
 			\textcolor{maincol}{\textbf{#3}} & \\
-		\end{tabular*}\\[4pt]
+		\end{tabular*}\\
 	
 		\ifthenelse{\isempty{#4}}{}{
 			\cvtext{#4}\\
@@ -263,7 +263,7 @@
 		\vspace{4pt}
 		{#5}
 	}
-	\vspace{4pt}
+ \vspace{2pt}
 }
 
 %----------------------------------------------------------------------------------------
@@ -318,9 +318,9 @@
 %
 %============================================================================%
 \begin{document}
-\columnratio{0.31}
+\columnratio{0.28}
 \setlength{\columnsep}{2.2em}
-\setlength{\columnseprule}{4pt}
+\setlength{\columnseprule}{2pt}
 \colseprulecolor{lightcol}
 \begin{paracol}{2}
 \begin{leftcolumn}
@@ -344,29 +344,29 @@
 %	META SKILLS
 %----------------------------------------------------------------------------------------
 
-\cvsection{SKILLS}
+\cvsection{Skills}
 
 %\cvskill{Skill_Name} {Years of experience} {percentage of bar fill} \\[-2pt]
 
-\cvskill{Adobe Tools} {3+ yrs} {0.9} \\[-2pt]
+\cvskill{C} {1 year} {0.85} \\[-4pt]
 
-\cvskill{C} {10 mo} {0.8} \\[-2pt]
+\cvskill{Git} {1 year} {0.75} \\[-4pt]
 
-\cvskill{Git} {8 mo} {0.5} \\[-2pt]
+\cvskill{Web Development} {6 mo} {0.5} \\[-4pt]
 
-\cvskill{Haskell} {6 mo} {0.4} \\[-2pt]
+\cvskill{Haskell} {6 mo} {0.4} \\[-4pt]
 
-\cvskill{HTML $\&$ CSS } {3 mo} {0.4} \\[-2pt]
+\cvskill{Adobe Illustrator} {2+ year} {0.9}\\[-4pt]
 
-\cvskill{Linux} {8 mo} {0.2} \\[-2pt]
+\cvskill{Adobe Photoshop} {3+ year} {0.8}\\[-4pt]
 
-
+\cvskill{Figma} {6 mo} {0.5}\\
 
 \cvsection{LANGUAGES}
 
-\cvskill{Portuguese} {} {1} \\[-2pt]
+\cvskill{Portuguese} {Native} {1} \\[-4pt]
 
-\cvskill{English} {} {0.9} \\[-2pt]
+\cvskill{English} {Fluent} {0.9} \\[-4pt]
 
 %\cvskill{Spanish} {} {0.3} \\[-2pt]
 
@@ -379,14 +379,12 @@
 %---------------------------------------------------------------------------------------
 %	TITLE  HEADER
 %----------------------------------------------------------------------------------------
-\fcolorbox{white}{darkcol}{\begin{minipage}[c][3.5cm][c]{1\mpwidth}
+\fcolorbox{white}{darkcol}{\begin{minipage}[c][1.8cm][c]{1\mpwidth}
 	\begin {center}
-		\HUGE{ \textbf{ \textcolor{white}{ \uppercase{ Júlio Pinto } } } } \\[-24pt]
-		\textcolor{white}{ \rule{0.1\textwidth}{1.25pt} } \\[4pt]
-		\large{ \textcolor{white} {Student - Computer Science \& Engineering } }
+		  \large{\textbf{ \textcolor{white}{ \uppercase{ Júlio Pinto } } } } \\
+		\medium{ \textcolor{white} {Student - Computer Science \& Engineering } }
 	\end {center}
-\end{minipage}} \\[14pt]
-\vspace{-12pt}
+\end{minipage}} \\
 
 %---------------------------------------------------------------------------------------
 %	EDUCATION
@@ -401,18 +399,18 @@
 	{Currently enrolled in the second year of the major.}
 \vfill\null
 
-%\cvevent
-	%{\textbf{2017 - 2021}}
-	%{High School Area - Science $\&$ Technology}
-	%{High School, Alberto Sampaio - Braga, Portugal}
-	%{Passed with 18.5 average.}
-%\vfill\null
+\cvevent
+	{\textbf{2017 - 2021}}
+	{High School Area - Science \& Technology}
+	{High School, Alberto Sampaio - Braga, Portugal}
+	{Finished High School with 18.5 average.}
+ \vfill\null
 
 \cvevent
 	{\textbf{2017 - 2020}}
 	{Language Learning - English}
 	{International House - Braga, Portugal}
-	{One of the highest grades of the school with a 181/190 points in the Cambridge Exam.}
+	{Realized the B2 exam and achieved the 181 out of 190 points, making my exam equivalent to a C1 level.}
 \vfill\null
 
 %---------------------------------------------------------------------------------------
@@ -439,15 +437,7 @@
 %---------------------------------------------------------------------------------------
 %	WORKSHOPS
 %----------------------------------------------------------------------------------------
-\vfill\null
 \cvsection{Experience}
-
-\cvevent
-	{\textbf{2022 - ongoing}}
-	{CeSIUM}
-	{Co Director - Marketing Department}
-	{Currently working for the Marketing and Communication Department at CeSIUM using and developing my knowledge with Adobe software, such as Photoshop and Illustrator.}
-\vfill\null
 
 \cvevent
 	{\textbf{2022 - ongoing}}
@@ -456,20 +446,41 @@
 	{Volunteering in Coderdojo by teaching and introducing to younger people concepts of coding and how to code with tools such as Scratch, Python or JavaScript. }
 \vfill\null
 
+\cvevent
+	{\textbf{2022 - ongoing}}
+	{CeSIUM}
+	{Co Director - Marketing Department}
+	{Currently working for the Marketing and Communication Department at CeSIUM using and developing my knowledge with Adobe Software, such as Photoshop and Illustrator.}
+\vfill\null
+
+\cvevent
+	{\textbf{2021 - 2022}}
+	{CeSIUM}
+	{Colaborator - Marketing Department}
+	{Worked as a Collaborator for the Marketing and Communication Department at CeSIUM. In it I developed knowledge with Adobe Software.}
+\vfill\null
+
 \vfill\null
 \cvsection{Events}
 
 \cvevent
+    {\textbf{2023}}
+	{DojoCon Braga}
+	{General Organizer}
+	{Organized the first edition of DojoCon Braga. The objective of the event was to create debate about the teaching of programation for teenagers/kids and promote CoderDojo Braga and it's history.}
+\vfill\null
+
+\cvevent
 	{\textbf{2023}}
 	{SEI - Semana de Engenharia Informática}
-	{Organization - Marketing Team}
+	{Staff \& Organization - Marketing Team}
 	{Working on SEI's organzation, mostly on the Marketing Department in order to keep our Social Media updated and innovative.}
 \vfill\null
 
 \cvevent
 	{\textbf{2022}}
 	{JOIN - Jornadas de Informática}
-	{Organization - Marketing Team}
+	{Staff \& Organization - Marketing Team}
 	{Working on JOIN's organzation, mostly on the Marketing Department in order to keep our Social Media updated and innovative.}
 \vfill\null
 
