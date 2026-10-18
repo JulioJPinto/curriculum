@@ -1,0 +1,76 @@
+# Edit this file and push — GitHub Actions rebuilds the PDF and redeploys the site.
+# Text fields support Typst markup: *bold*, _italic_, #link("https://...")[label]
+
+name: Júlio Pinto
+tagline: Marketing Director @ CeSIUM · Co-Champion @ CoderDojo Braga
+
+contact:
+  - label: pinto.julioj03@gmail.com
+    url: mailto:pinto.julioj03@gmail.com
+  - label: github.com/JulioJPinto
+    url: https://github.com/JulioJPinto
+  - label: linkedin.com/in/JulioJPinto
+    url: https://www.linkedin.com/in/JulioJPinto
+
+sections:
+  - title: Education
+    entries:
+      - title: University of Minho
+        role: B.S. in Software Engineering
+        location: Braga, Portugal
+        start: Oct. 2021
+        end: Present
+      - title: International House
+        role: First Certificate in English (Cambridge) — 181/190 (C1)
+        location: Braga, Portugal
+        start: Oct. 2018
+        end: Jul. 2020
+
+  - title: Experience
+    entries:
+      - title: CeSIUM
+        role: Director of the Marketing Department
+        location: Braga, Portugal
+        start: Nov. 2021
+        end: Present
+        bullets:
+          - Joined in 2021 as a Marketing collaborator; became co-director and later director of the department.
+          - Manage a team of about 15 people and CeSIUM's social media presence.
+          - 'Design and front-end work for #link("https://github.com/cesium")[CeSIUM''s projects] using Figma, Adobe suite, HTML, Tailwind and Next.js.'
+          - 'Organizing team member for #link("https://seium.org/")[SEI], #link("https://join.di.uminho.pt/")[JOIN] and #link("https://bugsbyte.org/")[Bugsbyte].'
+      - title: CoderDojo Braga
+        role: Mentor & Co-Champion
+        location: Braga, Portugal
+        start: Mar. 2022
+        end: Present
+        bullets:
+          - Teach programming to kids aged 7–17; joined as mentor in 2022, Co-Champion since 2023.
+          - Guide mentors and handle logistics and public relations.
+          - Organized DojoCon Braga, an event on bringing computing into education.
+
+  - title: Projects
+    entries:
+      - title: LearningChain
+        url: https://github.com/HexaTable/LearningChain
+        role: Bugsbyte Hackathon '23
+        start: Apr. 2024
+        end: Apr. 2024
+        bullets:
+          - Web3 course platform where anyone can publish courses and issue NFT certificates.
+          - TypeScript, Tailwind, Prisma, Solidity.
+      - title: Program Design by Calculation
+        url: https://github.com/JulioJPinto/CP-Project
+        role: University of Minho
+        start: Nov. 2023
+        end: Jan. 2024
+        bullets:
+          - Solved programming problems with catamorphisms, anamorphisms and functors in Haskell.
+
+  - title: Skills
+    skills:
+      - category: Programming
+        items: [Haskell, C, Java, Python, SQL, HTML & CSS, C++, TypeScript, Next.js, Go]
+      - category: Design
+        items: [Figma, Illustrator, After Effects, Photoshop, Premiere, OBS]
+      - category: Languages
+        items: [Portuguese, English, Spanish]
