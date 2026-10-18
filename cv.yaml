@@ -22,7 +22,7 @@ sections:
         location: Braga, Portugal
         start: Sep. 2024
         bullets:
-          - Focus on High-Performance Heterogeneous Computing and Computer Vision, covering HPC, distributed systems, GPU optimization and workload distribution.
+          - Focus on High-Performance Heterogeneous Computing and Computer Vision. Thesis on GPU monitoring and management at HASLab – INESC TEC.
       - title: University of Minho
         role: BSc in Software Engineering
         location: Braga, Portugal
@@ -39,32 +39,34 @@ sections:
           - Led product discovery for Cloudflare Mesh, turning customer research and technical testing into a PRD and onboarding prototype.
           - Shipped code and collaborated with engineering on product implementation.
       - title: CeSIUM
+        url: https://cesium.pt
         role: President
         location: Braga, Portugal
-        start: Nov. 2021
+        start: Oct. 2021
         bullets:
-          - Leading a team of 35 members across multiple departments and coordinating 80+ collaborators at the Software Engineering students' association of the University of Minho.
-          - Organize major events such as Semana da Engenharia Informática (SEI) and Hackathon Bugsbyte, and represent Software Engineering students.
+          - Lead the Software Engineering students' association of the University of Minho, with 35 members across multiple departments and 80+ collaborators.
+          - Rose from Marketing collaborator (2021) to Co-Director (2022), Marketing Director (2023), Vice-President (2024) and President (2025).
+          - 'General Organizer of #link("https://2025.seium.org/")[SEI''25]: 800 participants, 28 speakers from companies including Google, AWS, Reddit, Hugging Face, Epic Games and Mercedes-AMG HPP, and 32 sponsoring companies.'
       - title: HASLab – INESC TEC
-        role: Assistant Researcher
+        role: Research Assistant
         location: Braga, Portugal
         start: Oct. 2025
+        end: Jun. 2026
         bullets:
-          - High-performance and distributed computing, focusing on GPU monitoring and management with NVIDIA-SMI and NVML, performance tuning and scalable compute infrastructure.
+          - Researched high-performance and distributed computing, focusing on GPU monitoring and management with NVIDIA-SMI and NVML, performance tuning and scalable compute infrastructure.
       - title: Martins & Filhos SA
-        role: Full Stack Intern
+        role: Software Development Intern
         location: Barcelos, Portugal
         start: Jun. 2024
-        end: Sep. 2024
+        end: Aug. 2024
         bullets:
           - Developed and refactored an internal web application used by civil engineers and construction teams, using Laravel, PHP and Python.
       - title: Rolling Space
         role: Summer Intern, Development Team
         location: Braga, Portugal
-        start: Jul. 2022
-        end: Aug. 2022
+        date: Aug. 2022
         bullets:
-          - Salesforce development with low-code tools, HTML, CSS, Apex and JavaScript for internal platform customization.
+          - Built Salesforce features with low-code tools, HTML, CSS, Apex and JavaScript for internal platform customization.
 
   - title: Projects
     entries:
@@ -73,13 +75,13 @@ sections:
         location: Braga, Portugal
         start: Oct. 2025
         bullets:
-          - Startup simplifying outfit cataloging and clothing selection. 1st place in the Student Entrepreneurship category and an Honorable Mention overall.
+          - Co-founded a startup that simplifies outfit cataloging and clothing selection. Won 1st place in the Student Entrepreneurship category and an Honorable Mention overall.
       - title: Buddies
         role: Hackathon Shift APPens
         location: Coimbra, Portugal
         date: May 2025
         bullets:
-          - Co-living platform matching homeowners and residents by shared interests and lifestyles. 4th place overall.
+          - Built a co-living platform that matches homeowners and residents by shared interests and lifestyles. Placed 4th overall.
 
   - title: Skills
     skills:
@@ -88,4 +90,4 @@ sections:
       - category: Tools
         items: [Slack, Trello, NVIDIA-SMI, NVIDIA Nsight, ClickUp, Google Workspace]
       - category: Languages
-        items: [Portuguese (native), English (C1)]
+        items: [Portuguese (native), English (C1, Cambridge First Certificate, Grade A)]

@@ -5,7 +5,7 @@
 #let md(s) = eval(str(s), mode: "markup")
 
 #set document(title: data.name + " — CV", author: data.name)
-#set page(paper: "a4", margin: (x: 1.8cm, y: 1.6cm))
+#set page(paper: "a4", margin: (x: 1.6cm, y: 1.3cm))
 // Arimo is metric-compatible with Arial and bundled in fonts/ (compile with --font-path fonts).
 #set text(font: "Arimo", size: 10pt)
 #set list(spacing: 0.5em)
@@ -34,6 +34,7 @@
 
 #for section in data.sections [
   == #section.title
+  #v(-2pt)
 
   #for e in section.at("entries", default: ()) {
     let title = if "url" in e { link(e.url, e.title) } else { [#e.title] }
@@ -49,10 +50,17 @@
         interval-note: location,
       )
     }
-    if "bullets" in e { list(..e.bullets.map(md)) }
+    // Pull bullets closer to their entry header.
+    if "bullets" in e { v(-6pt); list(..e.bullets.map(md)) }
   }
 
   #for s in section.at("skills", default: ()) [
     *#s.category:* #s.items.join(", ") \
   ]
 ]
+
+// Hard limit: the CV must fit on one page. Fails the build otherwise,
+// so Pages keeps serving the last good version.
+#context if counter(page).final().first() > 1 {
+  panic("CV is " + str(counter(page).final().first()) + " pages; it must fit on 1. Trim cv.yaml.")
+}
