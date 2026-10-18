@@ -6,6 +6,7 @@ Minimal CV built with [Typst](https://typst.app) using the [`simple-cv`](https:/
 
 - `cv.yaml`: all CV content. Text fields accept Typst markup (`*bold*`, `#link("url")[label]`).
 - `main.typ`: layout only. Reads `cv.yaml` and renders it.
+- `fonts/`: Arimo (Arial-compatible, OFL), bundled so builds don't depend on system fonts.
 - `site/`: static page (`index.html`) that displays `cv.pdf`.
 
 ## Updating
@@ -15,13 +16,13 @@ Edit `cv.yaml` and push to `main`. Cloudflare Pages rebuilds the PDF and redeplo
 ## Local preview
 
 ```sh
-typst watch main.typ site/cv.pdf
+typst watch --font-path fonts main.typ site/cv.pdf
 ```
 
 ## Cloudflare Pages settings
 
 - **Build command:**
   ```sh
-  curl -sSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz | tar xJ && ./typst-x86_64-unknown-linux-musl/typst compile main.typ site/cv.pdf
+  curl -sSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz | tar xJ && ./typst-x86_64-unknown-linux-musl/typst compile --font-path fonts main.typ site/cv.pdf
   ```
 - **Build output directory:** `site`
