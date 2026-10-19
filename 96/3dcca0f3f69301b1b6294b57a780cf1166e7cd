@@ -1,0 +1,19 @@
+site/index.html
+  s_301a6847e6575f::t_91c62c001b3e11 8-9,13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "963dcca0f3f69301b1b6294b57a780cf1166e7cd",
+  "prompts": {},
+  "sessions": {
+    "s_301a6847e6575f": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eac0d691dffenaldi1johuGWaL",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Júlio Pinto <jpinto@cloudflare.com>"
+    }
+  }
+}
