@@ -22,7 +22,7 @@ sections:
         location: Braga, Portugal
         start: Sep. 2024
         bullets:
-          - Focus on High-Performance Heterogeneous Computing and Computer Vision. Thesis on GPU monitoring and management at HASLab – INESC TEC.
+          - Focus on High-Performance Heterogeneous Computing and Computer Vision. Thesis on GPU monitoring and management for AI systems at HASLab – INESC TEC.
       - title: University of Minho
         role: BSc in Software Engineering
         location: Braga, Portugal
@@ -36,31 +36,33 @@ sections:
         location: Lisbon, Portugal
         start: Jul. 2026
         bullets:
-          - Led product discovery for Cloudflare Mesh, turning customer research and technical testing into a PRD and onboarding prototype.
-          - Shipped code and collaborated with engineering on product implementation.
+          - Led product discovery for Cloudflare Mesh, turning customer research and technical testing into a PRD and onboarding prototype, and built AI agent skills for PRD review and Mesh debugging.
+          - Shipped production features to the Cloudflare One dashboard (TypeScript, React) for Cloudflare Mesh, including RHEL and container enrollment flows, and contributed fixes to Mesh routing and Split Tunnel handling.
+          - Debugged Mesh across multi-host Linux labs (routing, CGNAT conflicts, relayed paths, packet captures) to separate product defects from network and configuration causes, and wrote the Run Mesh on Linux guide.
       - title: CeSIUM
         url: https://cesium.pt
         role: President
         location: Braga, Portugal
         start: Oct. 2021
+        end: Sep. 2026
         bullets:
-          - Lead the Software Engineering students' association of the University of Minho, with 35 members across multiple departments and 80+ collaborators.
+          - Led the Software Engineering students' association of the University of Minho, with 35 members across multiple departments and 80+ collaborators.
           - Rose from Marketing collaborator (2021) to Co-Director (2022), Marketing Director (2023), Vice-President (2024) and President (2025).
           - 'General Organizer of #link("https://2025.seium.org/")[SEI''25]: 800 participants, 28 speakers from companies including Google, AWS, Reddit, Hugging Face, Epic Games and Mercedes-AMG HPP, and 32 sponsoring companies.'
       - title: HASLab – INESC TEC
         role: Research Assistant
         location: Braga, Portugal
         start: Oct. 2025
-        end: Jun. 2026
+        end: Oct. 2026
         bullets:
-          - Researched high-performance and distributed computing, focusing on GPU monitoring and management with NVIDIA-SMI and NVML, performance tuning and scalable compute infrastructure.
+          - Researched GPU monitoring and management for AI systems, using NVIDIA-SMI and NVML to tune performance and power efficiency of AI workloads on scalable compute infrastructure.
       - title: Martins & Filhos SA
         role: Software Development Intern
         location: Barcelos, Portugal
         start: Jun. 2024
         end: Aug. 2024
         bullets:
-          - Developed and refactored an internal web application used by civil engineers and construction teams, using Laravel, PHP and Python.
+          - Rebuilt the full-stack "extra services" web application used by civil engineers and construction teams, using Laravel, PHP and Python.
       - title: Rolling Space
         role: Summer Intern, Development Team
         location: Braga, Portugal
@@ -75,7 +77,7 @@ sections:
         location: Braga, Portugal
         start: Oct. 2025
         bullets:
-          - Co-founded a startup that simplifies outfit cataloging and clothing selection. Won 1st place in the Student Entrepreneurship category and an Honorable Mention overall.
+          - Co-founded an AI-powered app that identifies and catalogs clothing items from photos to simplify outfit selection. Won 1st place in the Student Entrepreneurship category and an Honorable Mention overall.
       - title: Buddies
         role: Hackathon Shift APPens
         location: Coimbra, Portugal
@@ -86,8 +88,8 @@ sections:
   - title: Skills
     skills:
       - category: Programming
-        items: [Haskell, C/C++, Java, SQL, Python, JavaScript/Next.js, CUDA, SYCL, Go]
+        items: [TypeScript/JavaScript, Go, C/C++, Python, Java, SQL, CUDA, SYCL, Haskell]
       - category: Tools
-        items: [Slack, Trello, NVIDIA-SMI, NVIDIA Nsight, ClickUp, Google Workspace]
+        items: [PyTorch, Workers AI, NVML/NVIDIA-SMI, NVIDIA Nsight, Cloudflare Workers, Docker, Git/GitLab CI]
       - category: Languages
         items: [Portuguese (native), English (C1, Cambridge First Certificate, Grade A)]
