@@ -39,6 +39,13 @@ sections:
           - Led product discovery for Cloudflare Mesh, turning customer research and technical testing into a PRD and onboarding prototype, and built AI agent skills for PRD review and Mesh debugging.
           - Shipped production features to the Cloudflare One dashboard (TypeScript, React) for Cloudflare Mesh, including RHEL and container enrollment flows, and contributed fixes to Mesh routing and Split Tunnel handling.
           - Debugged Mesh across multi-host Linux labs (routing, CGNAT conflicts, relayed paths, packet captures) to separate product defects from network and configuration causes, and wrote the Run Mesh on Linux guide.
+      - title: HASLab – INESC TEC
+        role: Research Assistant
+        location: Braga, Portugal
+        start: Oct. 2025
+        end: Oct. 2026
+        bullets:
+          - Researched GPU monitoring and management for AI systems, using NVIDIA-SMI and NVML to tune performance and power efficiency of AI workloads on scalable compute infrastructure.
       - title: CeSIUM
         url: https://cesium.pt
         role: President
@@ -49,13 +56,6 @@ sections:
           - Led the Software Engineering students' association of the University of Minho, with 35 members across multiple departments and 80+ collaborators.
           - Rose from Marketing collaborator (2021) to Co-Director (2022), Marketing Director (2023), Vice-President (2024) and President (2025).
           - 'General Organizer of #link("https://2025.seium.org/")[SEI''25]: 800 participants, 28 speakers from companies including Google, AWS, Reddit, Hugging Face, Epic Games and Mercedes-AMG HPP, and 32 sponsoring companies.'
-      - title: HASLab – INESC TEC
-        role: Research Assistant
-        location: Braga, Portugal
-        start: Oct. 2025
-        end: Oct. 2026
-        bullets:
-          - Researched GPU monitoring and management for AI systems, using NVIDIA-SMI and NVML to tune performance and power efficiency of AI workloads on scalable compute infrastructure.
       - title: Martins & Filhos SA
         role: Software Development Intern
         location: Barcelos, Portugal
